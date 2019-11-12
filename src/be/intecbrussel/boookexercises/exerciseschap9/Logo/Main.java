@@ -1,4 +1,4 @@
-package be.intecbrussel.boookexercises.exerciseschap9.Logo;
+/*package be.intecbrussel.boookexercises.exerciseschap9.Logo;
 
 import java.util.Scanner;
 
@@ -53,4 +53,4 @@ public class Main {
 
 
     }
-}
+}*/

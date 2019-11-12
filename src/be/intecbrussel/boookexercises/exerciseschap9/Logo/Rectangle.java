@@ -1,12 +1,14 @@
-package be.intecbrussel.boookexercises.exerciseschap9.Logo;
+/*package be.intecbrussel.boookexercises.exerciseschap9.Logo;
 
-public class Rectangle {
+import be.intecbrussel.boookexercises.exerciseschap10.square.Shape;
+
+public class Rectangle extends Shape {
     private double height;
     private double width;
     private int x;
     private int y;
     private int d;
-    private static int counter = 0;
+    private static int count = 0;
 
     public Rectangle () {
         this(0,0);
@@ -20,24 +22,25 @@ public class Rectangle {
         this.setWidth(width);
         this.setHeight(height);
         this.setPosition(x,y);
-        counter++;
+        count++;
     }
 
     public Rectangle (Rectangle toDuplicate) {
         this.height = toDuplicate.getHeight();
         this.width = toDuplicate.getWidth();
-        counter++;
+        count++;
     }
 
-
-    public double getArea () {
-        double area =  height * width;
-        return area;
-    }
-
+    @Override
     public double getPerimeter () {
         double perimeter = 2 * (height + width);
         return perimeter;
+    }
+
+    @Override
+    protected double getArea() {
+        double area =  height * width;
+        return area;
     }
 
     public void setHeight (double height) {
@@ -61,6 +64,8 @@ public class Rectangle {
         this.x = x;
         this.y = y;
     }
+
+
 
     public void setX (int x) {
         this.x = x;
@@ -90,7 +95,9 @@ public class Rectangle {
     public static int amountOfCorners = 4;
 
 
-    public static int amountOfRectangles () {
-        return counter;
+    public int getCountShapes() {
+        return count;
     }
-}
+
+
+}*/

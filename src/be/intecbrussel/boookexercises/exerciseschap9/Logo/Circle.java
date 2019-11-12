@@ -1,10 +1,24 @@
 package be.intecbrussel.boookexercises.exerciseschap9.Logo;
 
-public class Circle {
+import be.intecbrussel.boookexercises.exerciseschap10.square.Shape;
+
+public class Circle extends Shape {
     private double radius;
 
     public Circle () {
         this(0);
+    }
+
+    @Override
+    protected double getArea() {
+        double area = (Math.PI) * (radius * radius);
+        return area;
+    }
+
+    @Override
+    protected double getPerimeter() {
+        double perimeter = (2*radius) * Math.PI;
+        return perimeter;
     }
 
     public Circle (double radius) {
@@ -21,16 +35,10 @@ public class Circle {
         return radius;
     }
 
-    //area of a circle
-    public static double areaOfCircle (double radius) {
-        double area = (Math.PI) * (radius * radius);
-        return area;
-    }
-
-
-    //perimeter of a circle
-    public static double perimeterOfCircle (double radius) {
-        double perimeter = (2*radius) * Math.PI;
-        return perimeter;
+    public void grow (int factor) {
+        if (factor<0) {
+            factor = -factor;
+        }
+        this.radius = radius * factor;
     }
 }

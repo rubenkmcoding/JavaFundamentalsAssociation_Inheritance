@@ -1,4 +1,4 @@
-package be.intecbrussel.boookexercises.exerciseschap9.Logo;
+/*package be.intecbrussel.boookexercises.exerciseschap9.Logo;
 
 
 public class Logo {
@@ -71,4 +71,4 @@ public class Logo {
         this.text = text;
     }
 
-}
+}*/
