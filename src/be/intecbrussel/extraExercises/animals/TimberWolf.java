@@ -16,6 +16,9 @@ public class TimberWolf extends Animal {
 
     TimberWolf (String name, String gender, int age) {
         super(name, gender, age);
+        super.setSpecies("Timber Wolf");
     }
+
+
 
 }

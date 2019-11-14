@@ -2,6 +2,7 @@ package be.intecbrussel.extraExercises.animals;
 
 public class SaltwaterCrocodile extends Animal{
 
+
     SaltwaterCrocodile () {
         super();
     }
@@ -16,5 +17,7 @@ public class SaltwaterCrocodile extends Animal{
 
     SaltwaterCrocodile (String name, String gender, int age) {
         super(name, gender, age);
+        super.setSpecies("Saltwater Crocodile");
     }
+
 }

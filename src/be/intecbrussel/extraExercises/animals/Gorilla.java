@@ -1,6 +1,8 @@
 package be.intecbrussel.extraExercises.animals;
 
 public class Gorilla extends Animal {
+
+
     Gorilla () {
         super();
     }
@@ -15,6 +17,9 @@ public class Gorilla extends Animal {
 
     Gorilla (String name, String gender, int age) {
         super(name, gender, age);
+        super.setSpecies("Gorilla");
     }
+
+
 
 }

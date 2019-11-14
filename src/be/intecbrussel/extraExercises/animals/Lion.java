@@ -16,6 +16,8 @@ public class Lion extends Animal {
 
     Lion (String name, String gender, int age) {
         super(name, gender, age);
+        super.setSpecies("Lion");
     }
+
 
 }

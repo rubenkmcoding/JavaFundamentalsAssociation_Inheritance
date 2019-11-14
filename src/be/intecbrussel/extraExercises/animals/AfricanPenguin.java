@@ -2,7 +2,6 @@ package be.intecbrussel.extraExercises.animals;
 
 public class AfricanPenguin extends Animal{
 
-
     AfricanPenguin () {
         super();
     }
@@ -17,6 +16,8 @@ public class AfricanPenguin extends Animal{
 
     AfricanPenguin (String name, String gender, int age) {
         super(name, gender, age);
-    }
+        super.setSpecies("African Penguin");
+            }
+
 
 }

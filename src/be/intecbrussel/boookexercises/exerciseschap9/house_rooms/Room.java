@@ -8,3 +8,4 @@ public class Room {
         this.nameRoomType = nameRoomType;
     }
 }
+
