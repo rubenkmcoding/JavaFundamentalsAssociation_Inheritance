@@ -1,4 +1,4 @@
-/*package be.intecbrussel.boookexercises.exerciseschap9.Logo;
+package be.intecbrussel.boookexercises.exerciseschap9.Logo;
 
 import be.intecbrussel.boookexercises.exerciseschap10.square.Shape;
 
@@ -100,4 +100,4 @@ public class Rectangle extends Shape {
     }
 
 
-}*/
+}

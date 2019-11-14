@@ -1,4 +1,4 @@
-/*package be.intecbrussel.boookexercises.exerciseschap10.square;
+package be.intecbrussel.boookexercises.exerciseschap10.square;
 
 import be.intecbrussel.boookexercises.exerciseschap9.Logo.Rectangle;
 
@@ -10,20 +10,18 @@ public class Square extends Rectangle {
         this (0);
     }
 
-    public Square (int side) {
+    public Square (double side) {
         this(side, 0,0);
     }
 
-    public Square (int side, int x, int y) {
+    public Square (double side, int x, int y) {
         setMeasurements(side);
         setPosition(x,y);
         count++;
     }
 
     public Square (Square square) {
-        this.side = square.getHeight();
-        setPosition(square.getX(), square.getY());
-        count++;
+        this(square.getSide(),square.getX(), square.getY());
     }
 
     //sides are the same size so equalizing them
@@ -34,6 +32,11 @@ public class Square extends Rectangle {
 
     public void setSide (double side) {
         this.side = side;
+        this.setMeasurements(side);
+    }
+
+    double getSide () {
+        return side;
     }
 
 
@@ -48,4 +51,4 @@ public class Square extends Rectangle {
     public int getCountShapes() {
         return count;
     }
-}*/
+}

@@ -1,4 +1,4 @@
-/*package be.intecbrussel.boookexercises.exerciseschap9.Logo;
+package be.intecbrussel.boookexercises.exerciseschap9.Logo;
 
 
 public class Logo {
@@ -43,7 +43,7 @@ public class Logo {
             System.out.println("Rectangle number " + (i+1) + " has an area of " + String.format("%.2f", r[i].getArea()));
         }
         for (int i = 0; i < c.length; i++) {
-            System.out.println("Circle number " + (i+1) + " has an area of " + String.format("%.2f", c[i].areaOfCircle(c[i].getRadius())));
+            System.out.println("Circle number " + (i+1) + " has an area of " + String.format("%.2f", c[i].getArea()));
         }
 
         for (Rectangle rect : r
@@ -54,7 +54,7 @@ public class Logo {
 
         for (Circle circ : c
         ) {
-            totalArea += circ.areaOfCircle(circ.getRadius());
+            totalArea += circ.getArea();
 
         }
         return totalArea;
@@ -71,4 +71,4 @@ public class Logo {
         this.text = text;
     }
 
-}*/
+}
