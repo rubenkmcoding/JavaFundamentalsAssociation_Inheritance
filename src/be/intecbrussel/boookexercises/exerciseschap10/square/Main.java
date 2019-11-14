@@ -1,4 +1,4 @@
-/*package be.intecbrussel.boookexercises.exerciseschap10.square;
+package be.intecbrussel.boookexercises.exerciseschap10.square;
 
 import java.util.Scanner;
 
@@ -32,4 +32,4 @@ public class Main {
 
 
     }
-}*/
+}

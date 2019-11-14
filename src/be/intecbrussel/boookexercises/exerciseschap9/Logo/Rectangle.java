@@ -38,7 +38,7 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    protected double getArea() {
+    public double getArea() {
         double area =  height * width;
         return area;
     }

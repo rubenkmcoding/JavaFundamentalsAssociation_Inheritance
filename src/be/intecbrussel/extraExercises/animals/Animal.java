@@ -2,7 +2,7 @@ package be.intecbrussel.extraExercises.animals;
 
 import javax.xml.namespace.QName;
 
-public class Animal {
+public abstract class Animal {
 
     //properties
     String species;
