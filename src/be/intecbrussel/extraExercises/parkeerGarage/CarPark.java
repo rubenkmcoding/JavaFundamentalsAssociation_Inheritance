@@ -42,10 +42,14 @@ public class CarPark {
 
     //methods
     public void addCar (Car carIn) {
+        int nullCounter = 0;
         for (int i = 0; i < parking.length; i++) {
             if (parking[i] == null) {
-                break;
+                nullCounter++;
             }
+        }
+        if (nullCounter == 0) {
+            System.out.println("The parking is full");
         }
         for (int i = 0; i < parking.length; i++) {
             if (parking[i] == null) {
@@ -90,7 +94,7 @@ public class CarPark {
     public String printParkingLayout () {
         String carParkLayout = "|| ";
         for (int i = 0; i < parking.length; i++) {
-            carParkLayout = carParkLayout + parking[i].toString() + "||";
+            carParkLayout = carParkLayout + parking[i].toString() + " || ";
         }
         return carParkLayout;
     }
