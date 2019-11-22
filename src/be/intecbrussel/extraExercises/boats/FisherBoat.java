@@ -37,6 +37,24 @@ public class FisherBoat extends Boat {
         this.deckhand = deckhand;
     }
 
+    //setter
+    public void setNetSize(int netSize) {
+        this.netSize = netSize;
+    }
+
+    public void setDeckhand(Deckhand deckhand) {
+        this.deckhand = deckhand;
+    }
+
+    //getter
+    public int getNetSize() {
+        return netSize;
+    }
+
+    public Deckhand getDeckhand() {
+        return deckhand;
+    }
+
     @Override
     public void accelerate() {
         System.out.println("The fishing boat lifts the net and goes faster.");
