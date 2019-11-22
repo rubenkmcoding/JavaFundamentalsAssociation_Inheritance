@@ -1,4 +1,4 @@
 package be.intecbrussel.extraExercises.boats;
 
-public class Passenger {
+public class Passenger extends Person  {
 }
